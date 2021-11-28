@@ -1,0 +1,2 @@
+# Jungle_Safari_management
+Main objective of project is to build a website for jungle safari management system this website will provide online booking for the enthusiasts to book their safari tickets online and also it provides the information about the safari timings, about animal siting etc. The website should also provide a search facility for the customer to search for a safari of his/her choice.
