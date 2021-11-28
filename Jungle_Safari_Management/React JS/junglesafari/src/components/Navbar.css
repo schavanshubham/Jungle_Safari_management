@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 75px;
+    background-color:darkcyan;
+    color: white;
+}
+.logo{
+    font-size: 22px;
+}
+.nav-links{
+    display: flex;
+    justify-content:flex-start;
+    list-style: none;
+    width: 75%;
+}
+.home,
+.services,
+.about,
+.register,
+.login,
+.contact{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+span{
+    padding: 30px;
+    margin-left: 30px;
+
+}

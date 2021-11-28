@@ -1,0 +1,21 @@
+SELECT booking.B_ID, user.Fname
+FROM booking
+INNER JOIN user ON booking.U_ID=user.U_ID;
+*****************************************************************************************************************
+ Create Table Booking( B_ID int Primary Key,
+    	 U_ID int ,Constraint Fk_U_ID Foreign Key(U_ID) references User(U_ID) on delete cascade,
+	Pkg_ID int ,Constraint Fk_Pkg_ID Foreign Key(Pkg_ID) references Package_info(Pkg_ID) on delete cascade,
+    Time_Slot_ID int ,Constraint FK_Time_Slot_ID Foreign key(Time_Slot_ID) references Timeslot(Time_Slot_ID) on delete cascade,
+    Visit_Date Date,
+   No_of_Adults int,
+     No_of_Child int);
+********************************************************************************************************************
+ create table Payment
+     ( P_ID int Primary key,
+     B_ID int ,Constraint Fk_B_ID foreign key(B_ID) references Booking(B_ID) on delete cascade,
+     Amount Decimal(9,2) ,
+     P_Mode Varchar(45),
+     P_Status Varchar(45),
+     Date Date,
+     T_ID int );
+**********************************************************************************************************************

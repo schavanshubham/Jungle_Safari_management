@@ -1,0 +1,168 @@
+p{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align:right;
+}
+h1{
+  text-align: center;
+  font-family:sans-serif;
+  color:white;
+}
+form{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color:white;
+  
+}
+#button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:black;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+#button:hover {background-color:#666}
+
+#button:active {
+  background-color:black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+p{
+    text-align: center;
+    background-color: ghostwhite;
+}
+#loginheader
+{
+    text-align: center;
+   color:white;
+}
+table, th, td {
+  border: 1px solid rgb(7, 6, 6);
+  border-collapse: collapse;
+  padding: 20px;
+   }
+.my-class {
+  text-align: center;
+  background:green;
+  padding:15px; 
+}
+.my-class a{text-decoration:none; color:#fff;}
+
+#info{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+  text-align: justify;
+}
+#hmtbl
+{
+  
+  font-style:oblique;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-weight: bolder;
+ color: rgb(5, 5, 5);
+ 
+ 
+}
+
+
+
+ .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+.vmcont {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #fffffffd; /* Grey text */
+  width: 65%; /* Full width */
+  padding: 20px; /* Some padding */
+  text-align: justify;
+ 
+}
+.srcont {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #1f1d1d; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+  margin-left: 10px;
+  
+}
+.img-thumbnail
+{
+  height: 180px;
+  width: 260px;
+}
+#srimg
+{
+  
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#hmimg
+{
+  background-image: url('3.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#regimg
+{
+  background-image: url('7.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+ background-size: cover;
+ height:534px;
+}
+#lgnimg
+{
+  background-image: url('9.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+ background-size: cover;
+ height:534px;
+ 
+}
+
+#cant
+{
+  color: black;
+}
+input{
+  background-origin: padding-box;
+  background-color:transparent;
+  border-radius: 3px;
+  justify-content:center;
+  text-align: justify;
+  color: #fff;
+  padding-right: 20px;
+  
+}
+#cn{
+ 
+  text-align: center;
+}
